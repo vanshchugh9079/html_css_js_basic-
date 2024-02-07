@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.container{
+    display: grid;
+    background-color:black;
+    height: max-content;
+    width: max-content;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 35px;
+   margin: auto;
+   padding:35px;
+border:7px solid green;
+box-shadow:0 0 30px green;
+color: white;
+padding-bottom:-4px;
+}
+
+.item{
+    height:8em;
+    width:10em;
+    background-color:gray;
+    color: red;
+    text-align: center;
+    position: relative;
+}
+#item7{
+    position: relative;
+    left: 190px;
+}

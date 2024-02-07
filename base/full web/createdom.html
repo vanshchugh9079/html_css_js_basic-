@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+ const parent =document.createElement("div")
+ parent.className=".parent"
+ parent.id= Math.round((Math.random()*10)+1)
+//  parent.innerText="this is a boy"
+// second method to add text in parent
+const addtext=document.createTextNode("chai or code")
+parent.appendChild(addtext)
+console.log(parent);
+document.body.appendChild(parent)
+</script>
+</html>

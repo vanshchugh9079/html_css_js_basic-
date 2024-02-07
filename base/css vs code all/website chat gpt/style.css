@@ -1,0 +1,45 @@
+li{
+    display: inline;
+    list-style: none;   
+    padding-right: 1.5rem;
+}
+li>a{
+    text-decoration: none;
+}
+
+body{
+background-color: darksalmon;
+   background-size: cover;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#box2{
+    text-align: center;
+    box-sizing: border-box;
+}
+#box2>p{
+color: aliceblue;
+font-size: 70px;
+}
+#box3{
+    display: block;
+}
+#game{
+    display: inline;
+    width: 100px;
+    height: 100px;
+}
+#box3>a{
+text-decoration: none;
+}
+.video>img{
+    height: 10rem;
+    width: 20rem;
+   
+}
+.video{
+    padding: 3rem;
+}
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>advance selector</title>
+    <style>
+        div p{
+            text-align: center;
+            background-color: red;
+        }
+        div>p{
+            background-color: black;
+            color: white;
+        }
+        /* +that is used for sibling based */
+        div+p{
+            color: pink;
+            background-color:blue
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            idhdsfg
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            dfgwearh
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            flwerhrnsa
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <p>hello vansh</p>
+    </div>
+    
+</body>
+</html>

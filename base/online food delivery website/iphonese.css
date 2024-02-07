@@ -1,0 +1,9 @@
+.midhead{
+    display: flex;
+   justify-self: center;
+    font-size: -25px;
+}
+.page3{
+    position: relative;
+    bottom: 44px;
+}

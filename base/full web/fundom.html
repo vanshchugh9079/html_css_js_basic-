@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function in dom</title>
+</head>
+<body>
+    <ul class="header">
+        <li>javascript</li>
+    </ul>
+</body>
+<script>
+    const lang=(li)=>{
+     const add=document.createElement("li")
+     const view=document.createTextNode(`${li}`)
+     add.appendChild(view)
+     document.querySelector(".header").appendChild(add)
+    }
+    lang("python")
+    lang("java")
+</script>
+</html>

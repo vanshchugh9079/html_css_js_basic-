@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+.container{
+    display: flex;
+}
+button{
+    width: 100px;
+    height: 100px;
+}
+.button{
+    margin-top: 200px;
+    margin-left: 23px;
+}
+button:hover{
+background-color:light rgb(188, 176, 176);
+}
+.turnon:focus{
+    background-color: green;
+}
+.turnoff:focus{
+    background-color: red;
+}

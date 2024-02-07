@@ -1,0 +1,29 @@
+.page1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head1{
+    display: flex;
+    align-self: center;
+}
+.page1::before{
+height: 115%;
+}
+.box{
+    position: relative;
+    display: flex;
+   align-self:center;
+    flex-direction: row;
+    justify-self: center;
+    bottom: 4px;
+}
+.top{
+    text-align: center;
+    margin-left: -79px;
+}
+.page2{
+position: relative;
+bottom: 50px;
+}

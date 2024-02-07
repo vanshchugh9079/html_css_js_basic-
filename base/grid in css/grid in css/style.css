@@ -1,0 +1,31 @@
+.container{
+    display: grid;
+background-color: black;
+/* grid-template-rows: repeat(3,1fr); */
+grid-template-columns: repeat(3,1fr);
+gap: 2px;
+grid-template-rows: 100px;
+place-content: center;
+}
+.item{
+background-color:red;
+border: 3px solid greenyellow;
+}
+.item1{
+grid-column-start:1 ;
+grid-column-end: 4;
+text-align: center;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.item1>h1{
+    font-size: 90px;
+}
+.item3{
+    height: 90px;
+    align-self: center;
+    width: 70px;
+    justify-self: center;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body class="box-border">
+    <div class="flex">
+
+      <div id="container" class="h-screen m-auto block">
+        <p class="relative top-72 left-56 second inline"><--------------------------------</p>
+        <p class="relative top minute  inline top-72 right"><-----------------------</p>
+        <p class="relative hour inline top-72 right-28"><----------------</p>
+        <p class="relative inline-block top-72 alarm text-red-600"><--------------<span class="text-black">--</span></p>
+      </div>
+      <label for="alarm" class="self-center">alarm:</label>
+      <input type="time" name="time" id="alarm" value="" class="border-black border-solid border-2 inline-block h-6 self-center">
+    </div>
+      <script src="script.js"></script>
+  </body>
+</html>

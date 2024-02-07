@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1 style="text-align: center;">hlo</h1>
+</body>
+<script>
+    let url='https://api.github.com/users/vanshchugh'
+    let xml=new XMLHttpRequest()
+    xml.open('GET',url)
+    // let data;
+    // console.log("here");
+    xml.onreadystatechange=function(){
+        console.log(xml.readyState);
+        if(xml.readyState===4)
+        {
+           let data=this.responseText
+            data=JSON.parse(this.responseText)
+             console.log(data)
+        }
+    }
+xml.send()
+</script>
+</html>

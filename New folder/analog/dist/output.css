@@ -1,0 +1,37 @@
+#container{
+    background-image:url("png-transparent-clock-face-analog-clock-without-hands-angle-white-text.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    display: block;
+    width: 70vw;
+}
+
+.right{
+    right:-88px;
+    font-weight: bold;
+}
+.second{
+    /* color: red; */
+    display: inline-block;
+    transform-origin:right; 
+    left: 253px;
+    font-weight: bold;
+}
+.minute{
+    display: inline-block;
+    transform-origin:right;
+}
+.hour{
+    /* color: blue; */
+    display: inline-block;
+    transform-origin:right; 
+    left:-40px;
+    font-weight: bold;
+}
+.alarm{
+     right:158px;
+     transform-origin:right;
+     /* transition: all; */
+     /* transition-duration: 10s; */
+     transform:rotate(90deg)
+    }

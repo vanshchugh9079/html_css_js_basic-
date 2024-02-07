@@ -1,0 +1,15 @@
+.box{
+    height: 500px;
+    width: 500px;
+    /* background-image: linear-gradient(to right, red,yellow,blue); */
+    /* background-image: radial-gradient(pink,purple 50px); */
+
+}
+h1{
+    text-align: center;
+    padding-top: 10rem;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}

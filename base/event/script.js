@@ -1,0 +1,1 @@
+document.body.firstElementChild.addEventListener('click', function () { alert("hlo") },true)

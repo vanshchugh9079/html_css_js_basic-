@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+</head>
+<body>
+    <input id="input1" type="email" placeholder="Enter email">
+    <button id="btn">Validate Email</button>
+    <div class="result"></div>
+
+    <script>
+        const input = document.getElementById("input1");
+        const btn = document.getElementById("btn");
+        const resultDiv = document.querySelector(".result");
+
+        btn.addEventListener("click", async (e) => {
+            e.preventDefault();
+            console.log("clicked");
+            
+            const userId = input.value;
+            const url = `https://api.emailvalidation.io/v1/info?apikey=ema_live_MFbhJ9MG96GaRdLiXBMowXLpQwGq6WBUHigtw9al&email=${userId}`;
+
+            try {
+                const res = await fetch(url);
+                const result = await res.json();
+                resultDiv.innerHTML = `${JSON.stringify(result.user, null,2)} email is valid`
+            } catch (error) {
+                console.error("Error:", error);
+                resultDiv.innerHTML = "Error occurred while fetching data. enter a valid email";
+            }
+        });
+    </script>
+</body>
+</html>

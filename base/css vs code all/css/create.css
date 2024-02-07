@@ -1,0 +1,13 @@
+.container{
+    background-color: black;
+    color: antiquewhite;
+    font-size: 75px;
+    text-align: center;
+}
+@media(max-width: 500px) and (min-width: 200px){
+    .container{
+        background-color: tomato;
+    }
+
+    
+} 

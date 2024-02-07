@@ -1,0 +1,46 @@
+.container{
+display: flex;
+justify-content: center;
+}
+.box{ 
+
+}
+.box1{
+background-color: red;
+position: relative;
+animation-name: item1;
+animation-duration: 2s;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+}
+@keyframes item1{
+   from{
+    top: 0px;
+   }
+   to{
+    top: 300px;
+
+   }
+    
+}
+.box2{
+background-color: burlywood;
+}
+.box3{
+background-color: cadetblue;
+}
+html{
+    background-color: black;
+}
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+.box>li{
+    list-style: none;
+    color: white;
+    font-size: 95px;
+    margin-left: 10px;
+}
